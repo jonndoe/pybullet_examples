@@ -2,7 +2,7 @@
 
 1. Find full path to file to be downloaded.
     - Try to download file with Firefox and then stop it.
-    - Go to Firefox history, click on file, copy download link
+    - Go to Firefox history, click on file, select option 'copy download link'
 2. Insert download link into download_file().
 3. Run it: python file_downloader.py
 4. File will be saved in local directory, or you can pass directory as a parameter to download_file() function
@@ -10,7 +10,7 @@
     - For now you can "ls -la" in directory and see the file size, thus so-called monitoring download process.
     - Also you can open System Monitor tool and see current network download speed.
 
-
+some torch links:  https://nero-mirror.stanford.edu/pypi/web/simple/torch/
 
 
 2018-06-28 v1.0 by Cees Timmerman

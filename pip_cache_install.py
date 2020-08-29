@@ -4,11 +4,11 @@
 USE THIS SCRIPT TO INSTALL CACHED PIP PACKAGES OF ANY CONDA ENVIRONMENTS ON YOUR HOST:
 
 1. Find if package you want to install was cached locally in /home/user/.cache/pip/wheels/..
-   ---- find /home/system_user_name/.cache/pip/wheels/ -name "*package_name*.whl"
+   ---- find /home/<your_system_user_name>/.cache/pip/wheels/ -name "*package_name*.whl"
 
 2. Fix path in config file:
-   ---- nano /home/system_user_name/.pip/pip.cfg
-   ---- set path to "/home/system_user_name/.cache/pip/wheels/...package_name.whl"
+   ---- nano /home/<system_user_name>/.pip/pip.cfg
+   ---- set path to "/home/<system_user_name>/.cache/pip/wheels/...package_name.whl"
 
 3. Run from conda environment where you want to install package:
    ---- python pip_cache_install.py package_name

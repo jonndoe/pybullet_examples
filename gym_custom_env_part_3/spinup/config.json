@@ -9,13 +9,13 @@
     },
     "actor_critic":	"CNNActorCritic",
     "clip_ratio":	0.2,
-    "env_fn":	"<function <lambda> at 0x7fd32b7c6048>",
+    "env_fn":	"<function <lambda> at 0x7f886730b6a8>",
     "epochs":	250,
     "exp_name":	"panda_ppo",
     "gamma":	0.99,
     "lam":	0.97,
     "logger":	{
-        "<spinup.utils.logx.EpochLogger object at 0x7fd32890ec50>":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f8865767630>":	{
             "epoch_dict":	{},
             "exp_name":	"panda_ppo",
             "first_row":	true,

@@ -76,5 +76,5 @@ ac_kwargs = dict(hidden_sizes=[18,64,64], activation=nn.ReLU)
 
 logger_kwargs = dict(output_dir='spinup', exp_name='panda_ppo')
 
-ppo(env_fn=env_fn,actor_critic=core.CNNActorCritic, ac_kwargs=ac_kwargs, steps_per_epoch=5000, epochs=250, logger_kwargs=logger_kwargs)
-
+#ppo(env_fn=env_fn,actor_critic=core.CNNActorCritic, ac_kwargs=ac_kwargs, steps_per_epoch=5000, epochs=250, logger_kwargs=logger_kwargs)
+ppo(env_fn=env_fn,actor_critic=core.CNNActorCritic, ac_kwargs=ac_kwargs, steps_per_epoch=2, epochs=1, logger_kwargs=logger_kwargs)
